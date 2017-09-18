@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background: #f7f8f6 url(img/bg.jpg) repeat;
+	font: 13px/18px Arial;
+	color
+}
+
+#wrap {
+	width: 100%;
+	background: #f8f8f8;
+	min-height: 100%;
+	position: relative;
+}
+
+#navigation {
+	height: 48px;
+	background: transparent url("img/nav-bg.png") repeat-x;
+	margin: 0px 28px;
+	font: 14px/20px Arial;
+	clear: both
+}
+
+#navigation>ul>li{
+	float: left;
+	list-style-type: none;
+}
+
+#navigation>ul>li>a {
+	padding-left: 31px;
+	padding-top: 13px;
+	color: white;
+	display: block;
+}
